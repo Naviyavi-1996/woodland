@@ -1,3 +1,5 @@
+import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -65,6 +67,36 @@ function Footer() {
       <p style={{fontSize:'14px'}}>By entering your email, you agree to our Terms of Service & Privacy Policy, including receipt of emails and promotions. You can unsubscribe at any time.</p>
       </div>
       <div className='col-md-1'></div>
+      </div>
+      <div className='row w-100'>
+<div className='col-md-1'></div>
+<div className='col-md-4 d-flex justify-content-between'>
+<FontAwesomeIcon icon={faInstagram} size='xl'style={{color:'white'}} />
+<FontAwesomeIcon icon={faFacebook} size='xl'style={{color:'white'}}/>
+<FontAwesomeIcon icon={faXTwitter} size='xl'style={{color:'white'}}/>
+<FontAwesomeIcon icon={faYoutube} size='xl' style={{color:'white'}}/>
+<FontAwesomeIcon icon={faLinkedin} size='xl' style={{color:'white'}} />
+</div>
+<div className='col-md-6'>
+  <hr style={{color:'rgba(52, 50, 50, 0.456)'}}/>
+</div>
+<div className='col-md-1'></div>
+      </div>
+      <div className='row w-100'style={{color:'white'}}>
+        <div className='col-md-1'></div>
+        <div className='col-md-5 d-md-flex justify-content-center align-items-center justify-content-between'>
+          <p style={{fontSize:'13px'}}>About Us</p>
+          <p style={{fontSize:'13px'}}>Terms of service</p>
+          <p style={{fontSize:'13px'}}>Privacy Policy</p>
+          <p style={{fontSize:'13px'}}>Institutional Enquiry</p>
+          <p style={{fontSize:'13px'}}>Refund Policy</p>
+          <p style={{fontSize:'13px'}}>Store Locator</p>
+        </div>
+        <div className='col-md-1'></div>
+        <div className='col-md-3'>
+        <p className="ms-md-5"style={{fontSize:'13px'}}>Copyright 2024, Woodland (Aero Club) Private Limited</p>
+        </div>
+        <div className='col-md-1'></div>
       </div>
     </div>
     </>

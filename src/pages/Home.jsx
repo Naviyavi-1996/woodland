@@ -116,7 +116,7 @@ function Home() {
         </div>
       </Container>
       <div className=' row mt-5 w-100'>
-     <div className='bgimg col-sm-12 w-100'style={{width:'100%',height:'500px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/wdl_shoe_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}> <Button className="ms-5"style={{backgroundColor:'darkgreen',borderColor:'darkgreen',width:'150px',marginTop:'400px',height:'50px'}}>Shop Now</Button></div>
+     <div className='bgimg col-sm-12 w-100'style={{width:'100%',height:'500px',backgroundImage:'url("https://media.istockphoto.com/id/517706372/photo/on-a-walk-hiker-walking-in-a-forest.jpg?s=2048x2048&w=is&k=20&c=QQfLb-CyWWJOqfkLZxYKj7lKSOtE_UfgfjU8uqa0uQM=")',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center'}}> <Button className="ms-5"style={{backgroundColor:'darkgreen',borderColor:'darkgreen',width:'150px',marginTop:'400px',height:'50px'}}>Shop Now</Button></div>
       </div>
 
         <div className='row w-100'>
@@ -198,8 +198,9 @@ function Home() {
 </div>
 
 <div className='row w-100' >
-  <div className=' bgimg col-sm-12'style={{height:'500px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/woodsport_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
-  <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',height:"50px",width:'150px',marginTop:'400px',marginLeft:'100px'}}><b>Shop Now</b></Button></div>
+  <div className=' bgimg col-sm-12'style={{height:'500px',backgroundImage:'url("https://wallpapercave.com/wp/wp3547470.jpg")',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+  <div className='mt-5'><h1 style={{color:'maroon',fontFamily:'fantasy',fontSize:'70px'}}><b><i>Athletic <span style={{color:'yellow'}}>PURSUITS</span></i></b></h1></div>
+  <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',height:"50px",width:'150px',marginTop:'100px',marginLeft:'100px'}}><b>Shop Now</b></Button></div>
 </div>
 <div className='row mt-5'>
 <div className='d-md-flex justify-content-center align-items-center'>
