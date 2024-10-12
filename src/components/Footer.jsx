@@ -40,7 +40,7 @@ function Footer() {
       <p style={{fontSize:'14px'}}>Swaetshirts & Hoodies</p>
       <p style={{fontSize:'14px'}}>Innerwear Tops</p>
       </div>
-      <div style={{width:'1px',height:'300px',backgroundColor:'rgba(52, 50, 50, 0.456)'}}></div>
+      <div className={'d-none d-md-inline'}style={{width:'1px',height:'300px',backgroundColor:'rgba(52, 50, 50, 0.456)'}}></div>
       <div className='col-md-2'>
       <p> <b>Contact Us</b></p>
       <p style={{fontSize:'14px'}}>Need some more help? Get in touch with us and we’ll be more than happy to guide you through!</p>
