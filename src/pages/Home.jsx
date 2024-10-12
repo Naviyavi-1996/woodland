@@ -34,7 +34,7 @@ function Home() {
              </div>
         </Carousel.Item> 
         <Carousel.Item>
-        <div style={{backgroundImage:'url("https://modedebase.wordpress.com/wp-content/uploads/2014/05/blg_15.jpg")',height:'700px',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
+        <div style={{backgroundImage:'url("https://woodlandworldwide.com/askatingmonk.png")',height:'700px',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
             <div style={{float:'right',marginTop:'200px'}}>
                <h1 style={{color:'white',fontFamily:'fantasy'}}>Street Essentials</h1>
                <h3 style={{color:'white',fontFamily:'revert-layer'}}>redefine your urban edge with our streetwear</h3>
@@ -115,33 +115,35 @@ function Home() {
           </div>
         </div>
       </Container>
-      <div className='mt-5'style={{height:'500px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/wdl_shoe_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
-      <Button className="ms-5"style={{backgroundColor:'darkgreen',borderColor:'darkgreen',width:'150px',marginTop:'400px',height:'50px'}}>Shop Now</Button>
+      <div className=' row mt-5 w-100'>
+     <div className='bgimg col-sm-12 w-100'style={{width:'100%',height:'500px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/wdl_shoe_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}> <Button className="ms-5"style={{backgroundColor:'darkgreen',borderColor:'darkgreen',width:'150px',marginTop:'400px',height:'50px'}}>Shop Now</Button></div>
       </div>
-      <div className='row'>
-        <div className='col-md-6'>
-        <Card className='mt-sm-4' style={{ width: '100%',height:'600px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/m_apparel_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
-     {/*  <Card.Img variant="top" src="https://images.woodlandworldwide.app/assets/may2024/h_cat_1.webp" /> */}
-      <Card.Body>
-        <div className='ms-5 'style={{marginTop:'350px'}}>
-          <Card.Title style={{color:'white'}}><b><h3>Shop Men's Apparel</h3></b></Card.Title>
-          <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',width:'150px'}}><b>Shop Now</b></Button>
-        </div>
-      </Card.Body>
-    </Card>
-        </div>
-        <div className='col-md-6'>
-        <Card className='mt-sm-4' style={{ width: '100%',height:'600px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/f_apparel_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
-     {/*  <Card.Img variant="top" src="https://images.woodlandworldwide.app/assets/may2024/h_cat_1.webp" /> */}
-      <Card.Body>
-        <div className="ms-5"style={{marginTop:'350px'}}>
-          <Card.Title style={{color:'white'}}><b><h3>Shop Women's Apparel</h3></b></Card.Title>
-          <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',width:'150px'}}><b>Shop Now</b></Button>
-        </div>
-      </Card.Body>
-    </Card>
+
+        <div className='row w-100'>
+          <div className='col-md-6'>
+          <Card className='mt-sm-4' style={{ width: '100%',height:'600px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/m_apparel_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center'}}>
+       {/*  <Card.Img variant="top" src="https://images.woodlandworldwide.app/assets/may2024/h_cat_1.webp" /> */}
+        <Card.Body>
+          <div className='ms-5 'style={{marginTop:'350px'}}>
+            <Card.Title style={{color:'white'}}><b><h3>Shop Men's Apparel</h3></b></Card.Title>
+            <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',width:'150px'}}><b>Shop Now</b></Button>
           </div>
-      </div>
+        </Card.Body>
+      </Card>
+          </div>
+          <div className='col-md-6'>
+          <Card className='mt-sm-4' style={{ width: '100%',height:'600px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/f_apparel_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
+       {/*  <Card.Img variant="top" src="https://images.woodlandworldwide.app/assets/may2024/h_cat_1.webp" /> */}
+        <Card.Body>
+          <div className="ms-5"style={{marginTop:'350px'}}>
+            <Card.Title style={{color:'white'}}><b><h3>Shop Women's Apparel</h3></b></Card.Title>
+            <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',width:'150px'}}><b>Shop Now</b></Button>
+          </div>
+        </Card.Body>
+      </Card>
+            </div>
+        </div>
+
 <div className='container-fluid'>
         <div className='row mt-sm-5'>
           <div className='col-md-3'>
@@ -195,26 +197,27 @@ function Home() {
         </div>
 </div>
 
-<div className='row w-100' style={{height:'500px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/bag_cat_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
-<Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',height:"50px",width:'150px',marginTop:'400px',marginLeft:'100px'}}><b>Shop Now</b></Button>
+<div className='row w-100' >
+  <div className=' bgimg col-sm-12'style={{height:'500px',backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/woodsport_banner.webp")',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+  <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',height:"50px",width:'150px',marginTop:'400px',marginLeft:'100px'}}><b>Shop Now</b></Button></div>
 </div>
-<div className='row mt-5 w-100'>
-<div className='d-flex justify-content-center align-items-center'>
-<div className='col-md-4'style={{backgroundImage:'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Zgt4Sdn9GTNMxSazVoEyNna9q8GYyJ_Vqw&s")',backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'cover',height:'500px',width:'500px'}}>
-  <div className='d-flex justify-content-center align-items-center flex-column'style={{marginTop:'350px'}}>
-    <h3 style={{color:'white'}}>Shoe Care</h3>
-  <button type="button" style={{width:'150px'}}class="btn btn-outline-light"href="#"><b>Shop Now</b></button>
-  </div>
-  </div>
-  <div className='col-md-4'style={{backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/shoecare_cat_banner.webp")',backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'cover',height:'500px',width:'500px'}}>
-  <div className='d-flex justify-content-center align-items-center flex-column'style={{marginTop:'350px'}}>
-    <h3 style={{color:'white'}}>Belts & More</h3>
-  <button type="button" style={{width:'150px'}}class="btn btn-outline-light"href="#"><b>Shop Now</b></button>
-  </div>
-  </div>
-  <div className='col-md-4'style={{backgroundImage:'url("https://5.imimg.com/data5/ANDROID/Default/2021/11/SY/HW/WB/19051907/product-jpeg-500x500.jpg")',backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'cover',height:'500px',width:'500px'}}>
-  <div className='d-flex justify-content-center align-items-center flex-column'style={{marginTop:'350px'}}>
+<div className='row mt-5'>
+<div className='d-md-flex justify-content-center align-items-center'>
+<div className='col-md-4 mt-4'style={{backgroundImage:'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Zgt4Sdn9GTNMxSazVoEyNna9q8GYyJ_Vqw&s")',backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'cover',height:'500px'}}>
+  <div className='d-flex justify-content-center align-items-center flex-column 'style={{ transform: 'translateY(300px)' }}>
     <h3 style={{color:'white'}}>BAGS</h3>
+  <button type="button" style={{width:'150px'}}class="btn btn-outline-light"href="#"><b>Shop Now</b></button>
+  </div>
+  </div>
+  <div className='col-md-4 mt-4'style={{backgroundImage:'url("https://images.woodlandworldwide.app/assets/may2024/shoecare_cat_banner.webp")',backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'cover',height:'500px'}}>
+  <div className='d-flex justify-content-center align-items-center flex-column'style={{ transform: 'translateY(300px)' }}>
+    <h3 style={{color:'white'}}>SHOE CARE</h3>
+  <button type="button" style={{width:'150px'}}class="btn btn-outline-light"href="#"><b>Shop Now</b></button>
+  </div>
+  </div>
+  <div className='col-md-4 mt-4'style={{backgroundImage:'url("https://5.imimg.com/data5/ANDROID/Default/2021/11/SY/HW/WB/19051907/product-jpeg-500x500.jpg")',backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'cover',height:'500px'}}>
+  <div className='d-flex justify-content-center align-items-center flex-column'style={{ transform: 'translateY(300px)' }}>
+    <h3 style={{color:'white'}}>Belts & More</h3>
   <button type="button" style={{width:'150px'}}class="btn btn-outline-light"href="#"><b>Shop Now</b></button>
   </div>
   </div>
@@ -223,32 +226,32 @@ function Home() {
 <div className='row mt-5 w-100'>
 <h4 className='text-center'>AS WORN BY WOODLAND FAM</h4>
 <h5 className='text-center'>Click to shop & mention us on instagram @woodlandworldwide to be featured</h5>
-<div className='d-flex justify-content-center align-items-center justify-content-between'>
-  <div className='col-sm-2'style={{width:'290px'}}>
+<div className='d-md-flex justify-content-center align-items-center justify-content-between'>
+  <div className='col-sm-2'>
   <Card style={{ width: '100%',height:'300px',backgroundImage:'url("https://woodlandworldwide.com/insta_1.JPG")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
     </Card>
   </div>
-  <div className='col-sm-2 'style={{width:'290px'}}>
+  <div className='col-sm-2'>
   <Card style={{ width: '100%',height:'300px',backgroundImage:'url("https://woodlandworldwide.com/insta_2.jpeg")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
     </Card>
-  </div> <div className='col-sm-2 'style={{width:'290px'}}>
+  </div> <div className='col-sm-2'>
   <Card style={{ width: '100%',height:'300px',backgroundImage:'url("https://woodlandworldwide.com/insta_3.JPG")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
     </Card>
-  </div> <div className='col-sm-2 'style={{width:'290px'}}>
+  </div> <div className='col-sm-2'>
   <Card style={{ width: '100%',height:'300px',backgroundImage:'url("https://woodlandworldwide.com/insta_4.JPG")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
     </Card>
-  </div> <div className='col-sm-2 'style={{width:'290px'}}>
+  </div> <div className='col-sm-2'>
   <Card style={{ width: '100%',height:'300px',backgroundImage:'url("https://woodlandworldwide.com/insta_5.JPG")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
     </Card>
   </div>
 </div>
 </div>
-<div className='row'>
+<div className='row w-100'>
         <div className='col-md-6'>
         <Card className='mt-sm-4' style={{ width: '100%',height:'600px',backgroundImage:'url("https://content.jdmagicbox.com/comp/def_content_category/woodland-stores-11988339-vx3j4nxpsz.jpg")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
      {/*  <Card.Img variant="top" src="https://images.woodlandworldwide.app/assets/may2024/h_cat_1.webp" /> */}
       <Card.Body>
-        <div className='ms-5 'style={{marginTop:'350px'}}>
+        <div className='ms-5 'style={{marginTop:'300px'}}>
           <Card.Title style={{color:'white'}}><b><h3>Pro Planet</h3></b></Card.Title>
           <h5 style={{color:'white'}}>Proplanet is a community that is committed to make our plane a better place to live in. Our ultimate goal is to inspire the next generation and increase their participation in the conservation of nature.</h5>
           <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',width:'150px'}}><b>Read More</b></Button>
@@ -260,7 +263,7 @@ function Home() {
         <Card className='mt-sm-4' style={{ width: '100%',height:'600px',backgroundImage:'url("https://thumbs.dreamstime.com/b/pharmacy-chemistry-theme-test-glass-flask-solution-research-laboratory-science-medical-background-tubes-dark-toned-324758794.jpg")',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
      {/*  <Card.Img variant="top" src="https://images.woodlandworldwide.app/assets/may2024/h_cat_1.webp" /> */}
       <Card.Body>
-        <div className="ms-5"style={{marginTop:'350px'}}>
+        <div className="ms-5"style={{marginTop:'300px'}}>
           <Card.Title style={{color:'white'}}><b><h3>Woodland Research Lab</h3></b></Card.Title>
           <h5 style={{color:'white'}}>Woodlands expertise combines activity focused designs and technologically advanced materials available, created in the most innovative and effective manner possible.
 
