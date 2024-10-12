@@ -94,7 +94,8 @@ function Header() {
                             <input className="w-100 form-control"type="text" placeholder='Enter 10 digit mobile number' />
                         </div>
                         <div className='mb-3'>
-                        <InputGroup.Checkbox aria-label="Receive communication from us on message" />
+                       <input type="checkbox" />
+                         <label htmlFor="">Receive communication from us on message</label>
                         </div>
                         <div className='mb-3'>
                             <Button className="w-100" style={{backgroundColor:'darkgreen',color:'white'}}>Send OTP</Button>
