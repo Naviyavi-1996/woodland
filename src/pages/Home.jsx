@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Carousel, Container, } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
@@ -266,10 +267,8 @@ function Home() {
       <Card.Body>
         <div className="ms-5"style={{marginTop:'300px'}}>
           <Card.Title style={{color:'white'}}><b><h3>Woodland Research Lab</h3></b></Card.Title>
-          <h5 style={{color:'white'}}>Woodlands expertise combines activity focused designs and technologically advanced materials available, created in the most innovative and effective manner possible.
-
-Rea</h5>
-          <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',width:'150px'}}><b>Read More</b></Button>
+          <h5 style={{color:'white'}}>Woodlands expertise combines activity focused designs and technologically advanced materials available, created in the most innovative and effective manner possible.</h5>
+         <Link href="/Labs"> <Button style={{backgroundColor:'darkgreen',borderColor:'darkgreen',color:'white',width:'150px'}}><b>Read More</b></Button></Link>
         </div>
       </Card.Body>
     </Card>
