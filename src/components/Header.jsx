@@ -172,9 +172,12 @@ function Header() {
                 A Skating Monk
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link style={{color:'green',fontSize:'large',fontWeight:'bold'}}href="/About">About Us</Nav.Link>
-            <Nav.Link style={{color:'green',fontSize:'large',fontWeight:'bold'}}href="/Labs">Labs</Nav.Link>
-          
+                <Link to="/About" style={{ textDecoration: 'none' }}>
+                                    <Nav.Link  style={{ fontSize: 'large' ,color:'green',fontWeight:'bold'}} href='#home'>About Us</Nav.Link>
+                                </Link>
+                                <Link to="/Labs" style={{ textDecoration: 'none' }}>
+                                    <Nav.Link  style={{ fontSize: 'large' ,color:'green',fontWeight:'bold'}} href='#home'>Labs</Nav.Link>
+                                </Link>
            
             
             {/*  <Nav.Link href="#" disabled>
