@@ -25,7 +25,7 @@ function Home() {
             </div>
              </div>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={500}>
         <div style={{backgroundImage:'url("https://images.alphacoders.com/566/566707.jpg")',height:'700px',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
             <div className="me-5"style={{float:'right',marginTop:'200px'}}>
                <h1 style={{color:'white',fontFamily:'fantasy'}}>Stylish wear</h1>
@@ -34,7 +34,7 @@ function Home() {
             </div>
              </div>
         </Carousel.Item> 
-        <Carousel.Item>
+        <Carousel.Item interval={500}>
         <div style={{backgroundImage:'url("https://woodlandworldwide.com/askatingmonk.png")',height:'700px',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
             <div style={{float:'right',marginTop:'200px'}}>
                <h1 style={{color:'white',fontFamily:'fantasy'}}>Street Essentials</h1>
